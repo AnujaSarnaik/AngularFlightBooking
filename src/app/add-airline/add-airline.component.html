@@ -1,0 +1,33 @@
+<p>add-airline works!</p>
+<!--<form [formGroup] = "formData" (ngSubmit)= "onSubmit(formData.value)">
+    <label class="col-md-2" for="userName">Airline Name</label>
+    <input class="col-md-2" type="text"  name="airline"  formControlName="airlineName"><br><br>
+    <label class="col-md-2" for="logo">logo Name</label>
+    <input class="col-md-2" type="text" name="logo"  formControlName="logo"><br><br>
+    <label class="col-md-2" for="contact">Contact No.</label>
+    <input class="col-md-2" type="text" name="contact"  formControlName="contactNo"><br><br>
+    <label class="col-md-2" for="address">Contact address</label>
+    <input class="col-md-2" type="text" name="address" formControlName="contactAddress"><br><br>
+    <button class="col-md-offset-2 col-md-2 btn btn-primary">Add New Airline</button>
+</form>-->
+<form #addNewAirline = "ngForm" (ngSubmit) ="onClickAddNewAirline()">
+    <label class="col-md-2" for="userName">Airline Name</label>
+    <input class="col-md-2" type="text"  name="txtFlightNumber"  formControlName="FlightNumber" ngModule><br><br>
+    <!--<label class="col-md-2" for="logo">logo Name</label>
+    <input class="col-md-2" type="text" name="logo"  formControlName="Airline"><br><br>
+    <label class="col-md-2" for="contact">Contact No.</label>
+    <input class="col-md-2" type="text" name="txtFromPlace"  formControlName="FromPlace"><br><br>
+    <label class="col-md-2" for="address">Contact address</label>
+    <input class="col-md-2" type="text" name="txtToPlace" formControlName="ToPlace"><br><br>
+    <input class="col-md-2" type="text" name="txtScheduledDays" formControlName="ScheduledDays"><br><br>
+    <input class="col-md-2" type="text" name="txtInstrumentUsed" formControlName="InstrumentUsed"><br><br>
+    <input class="col-md-2" type="text" name="txtBusinessSeats" formControlName="BusinessSeats"><br><br>
+    <input class="col-md-2" type="text" name="txtNonBusinessSeats" formControlName="NonBusinessSeats"><br><br>
+    <input class="col-md-2" type="text" name="txtTicketCost" formControlName="TicketCost"><br><br>
+    <input class="col-md-2" type="text" name="txtRows" formControlName="Rows"><br><br>
+    <input class="col-md-2" type="text" name="txtAvailable" formControlName="Available"><br><br>
+
+    <button class="col-md-offset-2 col-md-2 btn btn-primary">Add New Airline</button>-->
+    </form>
+
+
